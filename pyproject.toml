@@ -1,0 +1,11 @@
+[project]
+name = "a-ponte"
+version = "1.0.0"
+description = "Desafio A Ponte: agente A2A com MCP por dentro."
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.3.0",
+]
+
+[tool.uv]
+# A chave do requestState vem do ambiente, nunca do código.
